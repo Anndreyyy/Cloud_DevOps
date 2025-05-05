@@ -1,0 +1,6 @@
+#Авторизация
+docker login
+# Сборка 
+docker build -t andreyylyy/echo-server:latest .
+# Пуш 
+docker push andreyylyy/echo-server:latest
